@@ -1,0 +1,32 @@
+function ContactCard({ contactInfo }) {
+  const { email, phone, address } = contactInfo;
+
+  return (
+    <div className="contact-card">
+      <p>Email: {email}</p>
+      <p>Phone: {phone}</p>
+      <p>Address: {address}</p>
+    </div>
+  );
+}
+
+export default ContactCard;
+
+
+import ContactCard from './ContactCard';
+
+function App() {
+  const contact = {
+    email: 'john.doe@example.com',
+    phone: '123-456-7890',
+    address: '123 Main St'
+  };
+
+  return (
+    <div>
+      <ContactCard contactInfo={contact} />
+    </div>
+  );
+}
+
+export default App;
