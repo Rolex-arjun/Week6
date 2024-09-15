@@ -1,0 +1,17 @@
+function App() {
+  const favoriteFoods = ["Pizza", "Sushi", "Burger"];
+  
+  return (
+    <div>
+      <Header />
+      <Content />
+      <ul>
+        {favoriteFoods.map((food, index) => (
+          <li key={index}>{food}</li>
+        ))}
+      </ul>
+      <Footer />
+    </div>
+  );
+}
+export default App;
