@@ -1,0 +1,31 @@
+app.JS
+
+import BlogPost from './BlogPost';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Blog Post Previews</h1>
+
+      <BlogPost
+        title="Introduction to React"
+        author="John Doe"
+        excerpt="React is a JavaScript library for building user interfaces..."
+      />
+
+      <BlogPost
+        title="Understanding Props and State"
+        author="Jane Smith"
+        excerpt="Props and state are core concepts in React that allow you to manage data in components..."
+      />
+
+      <BlogPost
+        title="Getting Started with JSX"
+        author="Alice Johnson"
+        excerpt="JSX is a syntax extension for JavaScript, allowing you to write HTML-like syntax inside React components..."
+      />
+    </div>
+  );
+}
+
+export default App;
