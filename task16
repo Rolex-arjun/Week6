@@ -1,0 +1,57 @@
+function Button({ label, onClick }) {
+  return (
+    <button onClick={onClick}>
+      {label}
+    </button>
+  );
+}
+export default Button;
+
+
+function App() {
+  const handleClick1 = () => {
+    alert('Button 1 clicked');
+  };
+
+  const handleClick2 = () => {
+    alert('Button 2 clicked');
+  };
+
+  return (
+    <div>
+      <Header />
+      <h2>React Button Example</h2>
+      <Button label="Click Me 1" onClick={handleClick1} />
+      <Button label="Click Me 2" onClick={handleClick2} />
+      <Footer />
+    </div>
+  );
+}
+export default App;
+
+
+
+import Header from './Header';
+import Footer from './Footer';
+import Button from './Button';
+
+function App() {
+  const handleClick1 = () => {
+    alert('Button 1 clicked');
+  };
+
+  const handleClick2 = () => {
+    alert('Button 2 clicked');
+  };
+
+  return (
+    <div>
+      <Header />
+      <h2>React Button Example</h2>
+      <Button label="Click Me 1" onClick={handleClick1} />
+      <Button label="Click Me 2" onClick={handleClick2} />
+      <Footer />
+    </div>
+  );
+}
+export default App;
