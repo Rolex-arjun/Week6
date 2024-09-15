@@ -1,0 +1,16 @@
+function App() {
+  const headingStyle = {
+    color: "blue"
+  };
+  
+  return (
+    <div>
+      <h1 style={headingStyle}>Welcome to React!</h1>
+      <div>
+        React is a JavaScript library for building UIs.
+      </div>
+      <Footer />
+    </div>
+  );
+}
+export default App;
