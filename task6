@@ -1,0 +1,19 @@
+function App() {
+  const names = ["Alice", "Bob", "Charlie"];
+  
+  return (
+    <div>
+      <h1>Welcome to React!</h1>
+      <div>
+        React is a JavaScript library for building UIs.
+      </div>
+      <ul>
+        {names.map((name, index) => (
+          <li key={index}>{name}</li>
+        ))}
+      </ul>
+      <Footer />
+    </div>
+  );
+}
+export default App;
