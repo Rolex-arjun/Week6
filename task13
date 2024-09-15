@@ -1,0 +1,8 @@
+function Content() {
+  return (
+    <div>
+      <p>This is some introductory content about React.</p>
+    </div>
+  );
+}
+export default Content;
