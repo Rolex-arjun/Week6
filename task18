@@ -1,0 +1,32 @@
+function ComplexStructure() {
+  return (
+    <div>
+      <header>
+        <h1>Welcome to My Website</h1>
+      </header>
+      <section>
+        <p>This is the main content of the website. Here we discuss various topics and provide valuable information.</p>
+      </section>
+      <footer>
+        <p>© 2024 My Website. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+}
+
+export default ComplexStructure;
+
+
+import ComplexStructure from './ComplexStructure';
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <ComplexStructure />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
