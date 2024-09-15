@@ -1,0 +1,11 @@
+function BlogPost({ title, author, excerpt }) {
+  return (
+    <div className="blog-post">
+      <h2>{title}</h2>
+      <p><strong>Author:</strong> {author}</p>
+      <p>{excerpt}</p>
+    </div>
+  );
+}
+
+export default BlogPost;
