@@ -1,0 +1,14 @@
+import Counter from './Counter';
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <h2>Counter Example</h2>
+      <Counter />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
