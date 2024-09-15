@@ -1,0 +1,25 @@
+function PersonalMessage() {
+  const name = 'John Doe';
+  return (
+    <div>
+      <h1>Hello, {name}!</h1>
+    </div>
+  );
+}
+
+export default PersonalMessage;
+
+
+import PersonalMessage from './PersonalMessage';
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <PersonalMessage />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
