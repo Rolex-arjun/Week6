@@ -1,0 +1,13 @@
+import Greeting from './Greeting';
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <Greeting />
+      <Content />
+      <Footer />
+    </div>
+  );
+}
+export default App;
